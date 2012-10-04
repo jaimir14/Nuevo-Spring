@@ -50,8 +50,8 @@ public class CarManager {
 		car.setModel(c.getModel());
 		car.setPrice(c.getPrice());
 		carList.add(car);
-		
 		return car;
-
+		
+	
 	}
 }

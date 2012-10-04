@@ -17,4 +17,10 @@
 		<property name="order" value="1" />
 	</bean>
 
+	<bean name="/new_car.html" class="com.springapp.controller.CarNewController">
+    	<property name="commandClass" value="com.springapp.model.Car"/>
+    	<property name="formView" value="carNew"/>
+    	<property name="successView" value="list_cars.html"/>
+	</bean>
+
 </beans>
